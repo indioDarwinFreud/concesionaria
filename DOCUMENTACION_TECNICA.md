@@ -1,14 +1,14 @@
-# 📘 Documentación Técnica - PlantillaProducto
+# 📘 Documentación Técnica - MyM Automotores
 
-**Fecha de Última Actualización:** 16/02/2026 (Actualización de Contenidos)
-**Versión del Proyecto:** 2.0 (Rebranding Completo)
+**Fecha de Última Actualización:** 09/04/2026 (Migración a GitHub)
+**Versión del Proyecto:** 3.0 (Concesionaria Independiente)
 
 ---
 
 ## 🚀 Visión General
 > **Nota de Localización:** Todo el contenido, documentación y comunicación del proyecto debe mantenerse en **Español Latino**.
 
-Este documento detalla la arquitectura técnica, la estructura de carpetas y el propósito de los archivos clave del proyecto **PlantillaProducto**. El sitio está construido como una Single Page Application (SPA) moderna optimizada para SEO y rendimiento, utilizando el stack de **Next.js**.
+Este documento detalla la arquitectura técnica, la estructura de carpetas y el propósito de los archivos clave del proyecto **MyM Automotores**. El sitio está construido como una landing page de alta gama para concesionaria automotriz, optimizada para SEO y rendimiento utilizando el stack de **Next.js**.
 
 ### 🛠 Tech Stack
 *   **Framework:** [Next.js 15+](https://nextjs.org/) (App Router)

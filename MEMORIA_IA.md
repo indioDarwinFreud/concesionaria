@@ -30,7 +30,8 @@
 
 ### 3. MyM Automotores (Concesionaria)
 *   **Descripción:** Landing page de alta gama para comercialización de vehículos usados y 0km. 
-*   **Estado:** Versión final migrada. Implementa jerarquía de datos automotriz (Año, KM, Precio) y sellos de confianza.
+*   **Estado:** Versión final migrada y desplegada en repositorio independiente. Implementa jerarquía de datos automotriz (Año, KM, Precio) y sellos de confianza.
+*   **Repositorio Actual:** `https://github.com/indioDarwinFreud/concesionaria.git` (First Commit: 09/04/2026).
 *   **Stack:** Next.js, Tailwind CSS, Lucide Icons.
 *   **Diseño:** Tema **MYM_RED** (Negro/Rojo vibrante), Glassmorphism avanzado, UI orientada a la conversión vía WhatsApp.
 
@@ -169,3 +170,9 @@
     - **[XENÓN LASER]**: Doble separador horizontal de "Láser Rojo" (Xenón) con resplandor fumigado en los límites de la sección plateada.
     - **[SQUARE AESTHETIC]**: Migración total a **Esquinas Cuadradas** (`rounded-none`) en tarjetas, botones y banners para un look más técnico, agresivo y corporativo.
     - **[PRODUCT CARD V3]**: Tarjetas horizontales alternadas en PC con fondo negro sólido, efecto de viñeta profunda ("Fumigado") en fotos y resplandor rojo xenón en hover.
+
+*   **09/04/2026 - Independización de Repositorio:**
+    - [GITHUB MIGRATION]: Se desligó el proyecto de la "Plantilla Producto" para evitar sobreescritura.
+    - [CLEAN START]: Se eliminó la carpeta `.git` anterior y se inicializó un nuevo repositorio desde cero.
+    - [README UPDATE]: Se actualizó el encabezado del `README.md` a "# concesionaria".
+    - [FIRST COMMIT]: Se subió el 100% del código de MyM Automotores a `https://github.com/indioDarwinFreud/concesionaria.git`.
