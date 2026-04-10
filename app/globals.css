@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * =====================================================================
+ * ESTILOS GLOBALES — PlantillaProducto
+ * =====================================================================
+ * Los colores y tipografías base se inyectan como CSS variables
+ * desde config.ts a través de app/layout.tsx.
+ *
+ * Variables disponibles globalmente (definidas en layout.tsx):
+ *   --primary-color      → color principal del tema (botones, acentos)
+ *   --primary-hover      → color de hover del color principal
+ *   --radius             → border-radius global
+ *   --font-size-base     → tamaño de texto base (cuerpo)
+ *   --font-size-lg       → tamaño de texto grande
+ *   --font-size-xl       → tamaño de texto extra grande
+ * =====================================================================
+ */
+
+html,
+body {
+  /* La fuente se define vía --font-urbanist inyectada desde layout.tsx */
+  color: #fff;
+  font-family: var(--font-urbanist), sans-serif;
+  font-size: var(--font-size-base, 16px);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-urbanist), sans-serif;
+}
+
+main {
+  min-height: 100vh;
+}
+
+/* ---- Componente reutilizable: Panel de cristal (glassmorphism) ---- */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@layer utilities {
+  .text_balance {
+    text-wrap: balance;
+  }
+}
